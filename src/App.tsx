@@ -1,13 +1,49 @@
-import { RouterProvider, createBrowserRouter } from "react-router";
-import { About, Contact, Home, Portfolio, QandA, Resume } from "./pages";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  HomeLayout,
+  About,
+  Contact,
+  Home,
+  Portfolio,
+  QandA,
+  Resume,
+} from "./pages";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomeLayout />,
+    children: [
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: "about",
+        element: <About />,
+      },
+      {
+        path: "portfolio",
+        element: <Portfolio />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
+      },
+      {
+        path: "q&a",
+        element: <QandA />,
+      },
+      {
+        path: "resume",
+        element: <Resume />,
+      },
+    ],
+  },
+]);
 
 function App() {
-  return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <About />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
