@@ -1,11 +1,13 @@
 import { Outlet } from "react-router";
+import { Navbar } from "../../components";
 
 function HomeLayout() {
   return (
     <>
-      <header>header</header>
-      <nav>navbar</nav>
-      <Outlet />
+      <Navbar />
+      <div className="mx-auto max-w-6xl px-8 py-20">
+        <Outlet />
+      </div>
     </>
   );
 }
