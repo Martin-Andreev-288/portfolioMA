@@ -1,5 +1,5 @@
 import Logo from "../logo/Logo";
-import { LinksDropdown, NavLinks } from "..";
+import { LinksDropdown, ModeToggle, NavLinks } from "..";
 
 function Navbar() {
   return (
@@ -8,6 +8,9 @@ function Navbar() {
         <Logo />
         <LinksDropdown />
         <NavLinks />
+        <div className="flex justify-center items-center gap-x-4">
+          <ModeToggle />
+        </div>
       </div>
     </nav>
   );
