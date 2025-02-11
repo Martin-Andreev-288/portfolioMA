@@ -1,5 +1,5 @@
 import Logo from "../logo/Logo";
-import { LinksDropdown } from "..";
+import { LinksDropdown, NavLinks } from "..";
 
 function Navbar() {
   return (
@@ -7,6 +7,7 @@ function Navbar() {
       <div className="mx-auto max-w-6xl px-8 flex justify-between items-center">
         <Logo />
         <LinksDropdown />
+        <NavLinks />
       </div>
     </nav>
   );
