@@ -31,16 +31,14 @@ const items = [
 
 function Home() {
   return (
-    <div className="min-h-screen">
-      <Carousel
-        items={items}
-        initialIndex={0}
-        transitionDuration={500}
-        autoplay={true}
-        autoplayInterval={4000}
-        infiniteLoop={true}
-      />
-    </div>
+    <Carousel
+      items={items}
+      initialIndex={0}
+      transitionDuration={500}
+      autoplay={true}
+      autoplayInterval={4000}
+      infiniteLoop={true}
+    />
   );
 }
 
