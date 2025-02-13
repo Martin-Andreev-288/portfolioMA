@@ -54,7 +54,7 @@ const Carousel = ({
   const toggleAutoplay = () => setIsAutoplayEnabled((prev) => !prev);
 
   return (
-    <section className="mx-auto mt-40 w-[80vw] max-w-[800px] relative h-[580px] overflow-hidden">
+    <section className="mx-auto w-[80vw] max-w-[800px] relative h-[580px] overflow-hidden border border-border rounded-xl shadow-lg backdrop-blur-sm bg-background/50">
       {items.map((item, index) => (
         <article
           key={index}
