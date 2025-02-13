@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Quote, ArrowLeft, ArrowRight } from "lucide-react";
 
 type CarouselItemType = {
@@ -36,20 +36,20 @@ const Carousel = ({
     });
   };
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrentIndex((oldIndex) => {
       const newIndex = (oldIndex + 1) % items.length;
-      if (newIndex === 0 && !infiniteLoop) return oldIndex; // Stop at end if not looping
+      if (newIndex === 0 && !infiniteLoop) return oldIndex;
       return newIndex;
     });
-  };
+  }, [items.length, infiniteLoop]);
 
   useEffect(() => {
     if (isAutoplayEnabled) {
       const intervalId = setInterval(nextSlide, autoplayInterval);
       return () => clearInterval(intervalId);
     }
-  }, [isAutoplayEnabled, currentIndex]);
+  }, [isAutoplayEnabled, currentIndex, nextSlide, autoplayInterval]);
 
   const toggleAutoplay = () => setIsAutoplayEnabled((prev) => !prev);
 
