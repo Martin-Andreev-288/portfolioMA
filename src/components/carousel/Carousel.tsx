@@ -10,13 +10,13 @@ type CarouselProps = {
   infiniteLoop: boolean;
 };
 
-const Carousel = ({
+function Carousel({
   initialIndex = 0,
   transitionDuration = 400,
   autoplay = true,
   autoplayInterval = 3000,
   infiniteLoop = true,
-}: CarouselProps) => {
+}: CarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [isAutoplayEnabled, setIsAutoplayEnabled] = useState(autoplay);
 
@@ -114,6 +114,6 @@ const Carousel = ({
       </button>
     </section>
   );
-};
+}
 
 export default Carousel;
