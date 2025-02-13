@@ -99,18 +99,18 @@ const Carousel = ({
 
       <button
         type="button"
-        className="absolute top-[200px] bg-muted text-primary-foreground w-5 h-5 grid place-items-center border-transparent rounded-md cursor-pointer transition-colors hover:bg-primary md:w-8 md:h-8 md:text-xl left-0"
+        className="absolute top-[200px] bg-secondary text-secondary-foreground w-8 h-8 grid place-items-center border border-border rounded-md cursor-pointer transition-colors hover:bg-secondary/80 md:w-10 md:h-10 md:text-xl left-0"
         onClick={prevSlide}
       >
-        <ArrowLeft />
+        <ArrowLeft className="w-4 h-4 md:w-5 md:h-5" />
       </button>
 
       <button
         type="button"
-        className="absolute top-[200px] bg-muted text-primary-foreground w-5 h-5 grid place-items-center border-transparent rounded-md cursor-pointer transition-colors hover:bg-primary md:w-8 md:h-8 md:text-xl right-0"
+        className="absolute top-[200px] bg-secondary text-secondary-foreground w-8 h-8 grid place-items-center border border-border rounded-md cursor-pointer transition-colors hover:bg-secondary/80 md:w-10 md:h-10 md:text-xl right-0"
         onClick={nextSlide}
       >
-        <ArrowRight />
+        <ArrowRight className="w-4 h-4 md:w-5 md:h-5" />
       </button>
 
       <button
