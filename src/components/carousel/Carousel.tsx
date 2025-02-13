@@ -1,24 +1,16 @@
 import { useCallback, useEffect, useState } from "react";
 import { Quote, ArrowLeft, ArrowRight } from "lucide-react";
+import { data as items } from "@/utils/carouselItems";
 
-type CarouselItemType = {
-  type?: string;
-  src?: string;
-  name?: string;
-  quote?: string;
+type CarouselProps = {
+  initialIndex: number;
+  transitionDuration: number;
+  autoplay: boolean;
+  autoplayInterval: number;
+  infiniteLoop: boolean;
 };
 
-interface CarouselProps {
-  items: CarouselItemType[];
-  initialIndex?: number;
-  transitionDuration?: number;
-  autoplay?: boolean;
-  autoplayInterval?: number;
-  infiniteLoop?: boolean;
-}
-
 const Carousel = ({
-  items,
   initialIndex = 0,
   transitionDuration = 400,
   autoplay = true,
@@ -42,7 +34,7 @@ const Carousel = ({
       if (newIndex === 0 && !infiniteLoop) return oldIndex;
       return newIndex;
     });
-  }, [items.length, infiniteLoop]);
+  }, [infiniteLoop]);
 
   useEffect(() => {
     if (isAutoplayEnabled) {
