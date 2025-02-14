@@ -1,5 +1,4 @@
-import Logo from "../logo/Logo";
-import { LinksDropdown, ModeToggle, NavLinks } from "..";
+import { Logo, LinksDropdown, ModeToggle, NavLinks } from "..";
 
 function Navbar() {
   return (
