@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { data as items } from "@/utils/carouselItems";
 import { NavButton } from "@/components";
 import { AutoplayControl } from "@/features";
-import { Slide } from "../..";
+import { Slide } from "..";
 
 type CarouselProps = {
   initialIndex: number;

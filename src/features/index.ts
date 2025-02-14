@@ -1,6 +1,12 @@
+export { default as Home } from './home/Home';
+export { default as About } from './about/About';
+export { default as Contact } from './contact/Contact';
+export { default as Portfolio } from './portfolio/Portfolio';
+export { default as QandA } from './qandA/QandA';
+export { default as Resume } from './resume/Resume';
 export { default as Slide } from './home/slides/Slide';
 export { default as WelcomeSlide } from './home/slides/WelcomeSlide';
 export { default as Image } from './home/slides/Image';
 export { default as Video } from './home/slides/Video';
-export { default as Carousel } from './home/carousel/Carousel';
-export { default as AutoplayControl } from './home/autoplayControl/AutoplayControl';
+export { default as Carousel } from './home/Carousel';
+export { default as AutoplayControl } from './home/AutoplayControl';
