@@ -54,6 +54,7 @@ function Carousel({
           index={index}
           currentIndex={currentIndex}
           transitionDuration={transitionDuration}
+          isEnabled={isAutoplayEnabled}
         />
       ))}
 

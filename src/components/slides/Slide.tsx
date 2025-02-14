@@ -8,9 +8,16 @@ type SlideProps = {
   index: number;
   currentIndex: number;
   transitionDuration: number;
+  isEnabled: boolean;
 };
 
-function Slide({ item, index, currentIndex, transitionDuration }: SlideProps) {
+function Slide({
+  item,
+  index,
+  currentIndex,
+  transitionDuration,
+  isEnabled,
+}: SlideProps) {
   return (
     <article
       className="text-center absolute top-0 left-0 w-full h-full transition-transform duration-300"
@@ -24,7 +31,7 @@ function Slide({ item, index, currentIndex, transitionDuration }: SlideProps) {
       {item?.type === "image" ? (
         <Image item={item} index={index} />
       ) : item?.type === "video" ? (
-        <Video item={item} />
+        <Video item={item} isEnabled={isEnabled} />
       ) : (
         <WelcomeSlide item={item} index={index} />
       )}
