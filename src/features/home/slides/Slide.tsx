@@ -1,7 +1,5 @@
 import { type Item } from "@/utils/types";
-import Video from "./Video";
-import Image from "./Image";
-import WelcomeSlide from "./WelcomeSlide";
+import { Video, Image, WelcomeSlide } from "../..";
 
 type SlideProps = {
   item: Item;

@@ -1,4 +1,4 @@
-import { Carousel } from "../../components";
+import { Carousel } from "@/features";
 
 function Home() {
   return (
