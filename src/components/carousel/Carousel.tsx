@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
-import { Quote, ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { data as items } from "@/utils/carouselItems";
+import Slide from "../slides/Slide";
 
 type CarouselProps = {
   initialIndex: number;
@@ -48,45 +49,13 @@ function Carousel({
   return (
     <section className="mx-auto w-[80vw] max-w-[800px] relative h-[580px] overflow-hidden border border-border rounded-xl shadow-lg backdrop-blur-sm bg-background/50">
       {items.map((item, index) => (
-        <article
+        <Slide
           key={index}
-          className="text-center absolute top-0 left-0 w-full h-full transition-transform duration-300"
-          style={{
-            transform: `translateX(${100 * (index - currentIndex)}%)`,
-            opacity: index === currentIndex ? 1 : 0,
-            visibility: index === currentIndex ? "visible" : "hidden",
-            transition: `transform ${transitionDuration}ms ease-in-out`,
-          }}
-        >
-          {item?.type === "image" ? (
-            <>
-              <img
-                src={item.src}
-                alt={`Slide ${index}`}
-                className="w-48 h-48 md:w-[300px] md:h-[300px] rounded-full object-cover mb-4 border-4 border-primary/20 shadow-lg mx-auto"
-              />
-              <h5 className="text-lg uppercase text-primary mb-3">
-                {item.name}
-              </h5>
-              <p className="max-w-[35em] mx-auto mt-8 text-muted-foreground leading-loose">
-                {item.quote}
-              </p>
-              <Quote className="text-3xl text-primary mt-4 mx-auto" />
-            </>
-          ) : (
-            <>
-              <video
-                src={item.src}
-                controls
-                className="w-full h-auto mx-auto"
-              />
-              <p className="mt-7 text-base font-normal">
-                {isAutoplayEnabled &&
-                  `CLICK ON "Pause Autoplay" and press the start button to watch the video`}
-              </p>
-            </>
-          )}
-        </article>
+          item={item}
+          index={index}
+          currentIndex={currentIndex}
+          transitionDuration={transitionDuration}
+        />
       ))}
 
       <button
