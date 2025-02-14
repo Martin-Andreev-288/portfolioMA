@@ -10,3 +10,4 @@ export { default as Image } from './home/slides/Image';
 export { default as Video } from './home/slides/Video';
 export { default as Carousel } from './home/Carousel';
 export { default as AutoplayControl } from './home/AutoplayControl';
+export { default as TechSkills } from './about/techSkills/TechSkills';
