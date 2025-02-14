@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { data as items } from "@/utils/carouselItems";
 import Slide from "../slides/Slide";
 import NavButton from "../navButton/NavButton";
+import AutoplayControl from "../autoplayControl/AutoplayControl";
 
 type CarouselProps = {
   initialIndex: number;
@@ -61,13 +62,10 @@ function Carousel({
       <NavButton direction={"prev"} onClick={prevSlide} />
       <NavButton direction={"next"} onClick={nextSlide} />
 
-      <button
-        type="button"
-        className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-4 py-2 rounded-md cursor-pointer transition-colors hover:bg-primary/90"
-        onClick={toggleAutoplay}
-      >
-        {isAutoplayEnabled ? "Pause Autoplay" : "Enable Autoplay"}
-      </button>
+      <AutoplayControl
+        isEnabled={isAutoplayEnabled}
+        onToggle={toggleAutoplay}
+      />
     </section>
   );
 }
