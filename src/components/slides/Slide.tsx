@@ -1,6 +1,7 @@
 import { type Item } from "@/utils/types";
 import Video from "./Video";
 import Image from "./Image";
+import WelcomeSlide from "./WelcomeSlide";
 
 type SlideProps = {
   item: Item;
@@ -22,8 +23,10 @@ function Slide({ item, index, currentIndex, transitionDuration }: SlideProps) {
     >
       {item?.type === "image" ? (
         <Image item={item} index={index} />
-      ) : (
+      ) : item?.type === "video" ? (
         <Video item={item} />
+      ) : (
+        <WelcomeSlide item={item} index={index} />
       )}
     </article>
   );
