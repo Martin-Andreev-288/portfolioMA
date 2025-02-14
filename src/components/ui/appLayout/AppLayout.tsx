@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
-import { Navbar } from "../../components";
+import { Navbar } from "../..";
 
-function HomeLayout() {
+function AppLayout() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
@@ -17,4 +17,4 @@ function HomeLayout() {
   );
 }
 
-export default HomeLayout;
+export default AppLayout;

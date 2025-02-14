@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
-import HomeLayout from "./HomeLayout";
+import AppLayout from "./AppLayout";
 
 vi.mock("../../components", () => ({
   Navbar: () => <div data-testid="navbar" />,
@@ -10,14 +10,14 @@ vi.mock("react-router", () => ({
   Outlet: () => <div data-testid="outlet" />,
 }));
 
-describe("HomeLayout", () => {
+describe("AppLayout", () => {
   it("renders the Navbar component", () => {
-    render(<HomeLayout />);
+    render(<AppLayout />);
     expect(screen.getByTestId("navbar")).toBeInTheDocument();
   });
 
   it("renders the Outlet within a container with proper Tailwind classes", () => {
-    render(<HomeLayout />);
+    render(<AppLayout />);
 
     const outlet = screen.getByTestId("outlet");
     const container = outlet.parentElement;
