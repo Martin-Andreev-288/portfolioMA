@@ -46,7 +46,7 @@ function Carousel({
   const toggleAutoplay = () => setIsAutoplayEnabled((prev) => !prev);
 
   return (
-    <section className="mx-auto w-[90vw] max-w-[1200px] relative min-h-[620px] overflow-hidden border border-border rounded-xl shadow-lg backdrop-blur-sm bg-background/50">
+    <section className="mx-auto w-[90vw] max-w-[1200px] relative min-h-[620px] overflow-hidden border border-border rounded-xl shadow-lg bg-[url('src/assets/portfolio.png')] bg-center bg-no-repeat bg-cover">
       {items.map((item, index) => (
         <Slide
           key={index}
