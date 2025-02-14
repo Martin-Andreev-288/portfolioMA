@@ -4,3 +4,6 @@ export { default as LinksDropdown } from './linksDropdown/LinksDropdown';
 export { default as NavLinks } from './navLinks/NavLinks';
 export { default as ModeToggle } from './modeToggle/ModeToggle';
 export { default as Carousel } from './carousel/Carousel';
+export { default as Slide } from './slides/Slide';
+export { default as NavButton } from './navButton/NavButton';
+export { default as AutoplayControl } from './autoplayControl/AutoplayControl';
