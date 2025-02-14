@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
-import { ArrowLeft, ArrowRight } from "lucide-react";
 import { data as items } from "@/utils/carouselItems";
 import Slide from "../slides/Slide";
+import NavButton from "../navButton/NavButton";
 
 type CarouselProps = {
   initialIndex: number;
@@ -58,21 +58,8 @@ function Carousel({
         />
       ))}
 
-      <button
-        type="button"
-        className="absolute top-[200px] bg-secondary text-secondary-foreground w-8 h-8 grid place-items-center border border-border rounded-md cursor-pointer transition-colors hover:bg-secondary/80 md:w-10 md:h-10 md:text-xl left-0"
-        onClick={prevSlide}
-      >
-        <ArrowLeft className="w-4 h-4 md:w-5 md:h-5" />
-      </button>
-
-      <button
-        type="button"
-        className="absolute top-[200px] bg-secondary text-secondary-foreground w-8 h-8 grid place-items-center border border-border rounded-md cursor-pointer transition-colors hover:bg-secondary/80 md:w-10 md:h-10 md:text-xl right-0"
-        onClick={nextSlide}
-      >
-        <ArrowRight className="w-4 h-4 md:w-5 md:h-5" />
-      </button>
+      <NavButton direction={"prev"} onClick={prevSlide} />
+      <NavButton direction={"next"} onClick={nextSlide} />
 
       <button
         type="button"
