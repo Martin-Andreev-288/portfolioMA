@@ -23,14 +23,4 @@ export const data: Item[] = [
         name: "Birdy",
         quote: "Let your dreams take flight.",
     },
-    {
-        type: "image",
-        src: "https://images.unsplash.com/photo-1730365553322-6cd83a29f9fa?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        name: "Somewhere in the nowhere",
-        quote: "Not all those who wander are lost.",
-    },
-    {
-        type: "video",
-        src: "https://videos.pexels.com/video-files/5285043/5285043-uhd_2560_1440_25fps.mp4",
-    },
 ];

@@ -1,10 +1,11 @@
 import { useCallback, useEffect, useState } from "react";
-import { data as items } from "@/utils/carouselItems";
 import { NavButton } from "@/components";
 import { AutoplayControl } from "@/features";
 import { Slide } from "..";
+import { type Item } from "../../utils/types";
 
 type CarouselProps = {
+  items: Item[];
   initialIndex: number;
   transitionDuration: number;
   autoplay: boolean;
@@ -13,6 +14,7 @@ type CarouselProps = {
 };
 
 function Carousel({
+  items,
   initialIndex = 0,
   transitionDuration = 400,
   autoplay = true,
@@ -36,7 +38,7 @@ function Carousel({
       if (newIndex === 0 && !infiniteLoop) return oldIndex;
       return newIndex;
     });
-  }, [infiniteLoop]);
+  }, [items.length, infiniteLoop]);
 
   useEffect(() => {
     if (isAutoplayEnabled) {
