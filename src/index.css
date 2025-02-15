@@ -59,6 +59,16 @@
   }
 }
 
+@layer components {
+  .title {
+    @apply dark:text-white mb-8 border-b-[#333] dark:border-blue-100 border-solid;
+  }
+
+  .subtitle {
+    @apply text-3xl font-bold text-center inline-block border-b-[0.1rem] my-8
+  }
+}
+
 @layer base {
   * {
     @apply border-border;
