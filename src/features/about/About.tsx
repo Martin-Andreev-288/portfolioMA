@@ -1,5 +1,5 @@
-import { TechSkills, SoftSkills } from "@/features";
-import { techSkills, softSkills } from "@/utils";
+import { TechSkills, SoftSkills, Passions } from "@/features";
+import { techSkills, softSkills, passions } from "@/utils";
 
 function About() {
   return (
@@ -8,12 +8,23 @@ function About() {
         About me
       </h1>
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="title subtitle">Technical Skills</h2>
-        <TechSkills skills={techSkills} />
-        <h2 className="title subtitle">Soft Skills</h2>
-        <SoftSkills skills={softSkills} />
+        {/* Technical Skills */}
+        <div>
+          <h2 className="title subtitle">Technical Skills</h2>
+          <TechSkills skills={techSkills} />
+        </div>
 
-        <h2 className="title subtitle">Hobbies</h2>
+        {/* Soft Skills */}
+        <div>
+          <h2 className="title subtitle">Soft Skills</h2>
+          <SoftSkills skills={softSkills} />
+        </div>
+
+        {/* Passions */}
+        <div>
+          <h2 className="title subtitle">Passions</h2>
+          <Passions passions={passions} />
+        </div>
       </div>
     </section>
   );
