@@ -7,6 +7,7 @@ export { default as Carousel } from './home/Carousel';
 export { default as AutoplayControl } from './home/AutoplayControl';
 export { default as About } from './about/About';
 export { default as TechSkills } from './about/TechSkills';
+export { default as SoftSkills } from './about/SoftSkills';
 export { default as Contact } from './contact/Contact';
 export { default as Portfolio } from './portfolio/Portfolio';
 export { default as QandA } from './qandA/QandA';

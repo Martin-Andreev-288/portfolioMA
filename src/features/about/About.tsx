@@ -1,5 +1,5 @@
-import { TechSkills } from "@/features";
-import { techSkills } from "@/utils";
+import { TechSkills, SoftSkills } from "@/features";
+import { techSkills, softSkills } from "@/utils";
 
 function About() {
   return (
@@ -12,8 +12,11 @@ function About() {
           Technical Skills
         </h2>
         <TechSkills skills={techSkills} />
+        <h2 className="text-3xl font-bold text-center my-8 dark:text-white">
+          Soft Skills
+        </h2>
+        <SoftSkills skills={softSkills} />
 
-        <h3>Soft Skills</h3>
         <h3>Hobbies</h3>
       </div>
     </section>
