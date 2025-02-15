@@ -1,5 +1,5 @@
 import { Carousel } from "@/features";
-import { data as carouselItems } from "@/utils/carouselItems";
+import { carouselItems } from "@/utils";
 
 function Home() {
   return (

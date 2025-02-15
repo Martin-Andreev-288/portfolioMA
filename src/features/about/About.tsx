@@ -1,5 +1,5 @@
 import { TechSkills } from "@/features";
-import { techSkills } from "../../utils/skillsData";
+import { techSkills } from "@/utils";
 
 function About() {
   return (

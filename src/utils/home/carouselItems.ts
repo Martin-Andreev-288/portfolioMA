@@ -1,6 +1,6 @@
-import { type Item } from './types'
+import { type Item } from '../types'
 
-export const data: Item[] = [
+export const carouselItems: Item[] = [
     {
         type: "welcomeSlide",
         src: "images/m-a.jpg",
