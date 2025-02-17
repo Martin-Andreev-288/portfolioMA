@@ -20,10 +20,10 @@ function SoftSkills({ skills }: SoftSkillsProps) {
               bg-gradient-to-br ${category.color}`}
         >
           <div className="flex items-center gap-2 mb-3">
-            {category.icon}
             <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-200">
               {category.category}
             </h4>
+            {category.icon}
           </div>
           <div className="flex flex-wrap justify-center gap-2">
             {category.skills.map((skill) => (
