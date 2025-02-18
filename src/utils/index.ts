@@ -4,3 +4,4 @@ export * from './about/techSkills';
 export * from './about/softSkills';
 export * from './about/passions';
 export * from './portfolio/projects';
+export * from './resume/resumeData';
