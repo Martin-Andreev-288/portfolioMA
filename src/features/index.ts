@@ -16,5 +16,7 @@ export { default as ProjectCard } from './portfolio/ProjectCard';
 export { default as Resume } from './resume/Resume';
 export { default as EducationCard } from './resume/EducationCard';
 export { default as DownloadCard } from './resume/DownloadCard';
-export { default as Contact } from './contact/Contact';
 export { default as QandA } from './qandA/QandA';
+export { default as Accordion } from './qandA/Accordion';
+export { default as AccordionItem } from './qandA/AccordionItem';
+export { default as Contact } from './contact/Contact';

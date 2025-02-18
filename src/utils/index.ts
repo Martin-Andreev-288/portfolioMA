@@ -5,3 +5,4 @@ export * from './about/softSkills';
 export * from './about/passions';
 export * from './portfolio/projects';
 export * from './resume/resumeData';
+export * from './qandA/qandA';
