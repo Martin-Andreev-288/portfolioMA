@@ -3,14 +3,18 @@ import { carouselItems } from "@/utils";
 
 function Home() {
   return (
-    <Carousel
-      items={carouselItems}
-      initialIndex={0}
-      transitionDuration={500}
-      autoplay={true}
-      autoplayInterval={4000}
-      infiniteLoop={true}
-    />
+    <section className="flex items-center justify-center min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+      <div className="h-full">
+        <Carousel
+          items={carouselItems}
+          initialIndex={0}
+          transitionDuration={500}
+          autoplay={true}
+          autoplayInterval={4000}
+          infiniteLoop={true}
+        />
+      </div>
+    </section>
   );
 }
 
