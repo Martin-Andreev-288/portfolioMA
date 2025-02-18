@@ -12,6 +12,7 @@ export { default as Passions } from './about/Passions';
 export { default as Portfolio } from './portfolio/Portfolio';
 export { default as Projects } from './portfolio/Projects';
 export { default as ProjectButtons } from './portfolio/ProjectButtons';
+export { default as ProjectCard } from './portfolio/ProjectCard';
 export { default as Contact } from './contact/Contact';
 export { default as QandA } from './qandA/QandA';
 export { default as Resume } from './resume/Resume';

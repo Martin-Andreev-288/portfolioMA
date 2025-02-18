@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
-type ProjectButtons = {
+type ProjectButtonsProps = {
   isExpanded: boolean;
   toggleExpand: () => void;
   totalProjects: number;
@@ -11,7 +11,7 @@ function ProjectButtons({
   isExpanded,
   toggleExpand,
   totalProjects,
-}: ProjectButtons) {
+}: ProjectButtonsProps) {
   return (
     <div className="mt-4">
       <Button
