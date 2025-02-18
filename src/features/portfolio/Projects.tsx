@@ -83,7 +83,19 @@ function Projects({ projects }: { projects: Project[] }) {
       <div className="mt-4">
         <Button
           variant={isExpanded ? "destructive" : "default"}
-          onClick={() => setIsExpanded(!isExpanded)}
+          onClick={() => {
+            setIsExpanded(!isExpanded);
+            if (!isExpanded) {
+              setTimeout(
+                () =>
+                  window.scrollTo({
+                    top: document.documentElement.scrollHeight,
+                    behavior: "smooth",
+                  }),
+                100
+              );
+            }
+          }}
           className="gap-2 transition-all"
         >
           {isExpanded ? (
