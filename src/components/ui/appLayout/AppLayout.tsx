@@ -3,7 +3,7 @@ import { Navbar } from "../..";
 
 function AppLayout() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col dark:bg-gray-900">
       <Navbar />
       <div className="flex-1 pb-8">
         {" "}
