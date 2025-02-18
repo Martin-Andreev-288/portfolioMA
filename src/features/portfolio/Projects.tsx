@@ -82,6 +82,9 @@ function Projects({ projects }: { projects: Project[] }) {
       </div>
       <div className="mt-4">
         <Button
+          aria-label={
+            isExpanded ? "Collapse projects list" : "Expand projects list"
+          }
           variant={isExpanded ? "destructive" : "default"}
           onClick={() => {
             setIsExpanded(!isExpanded);
@@ -100,13 +103,19 @@ function Projects({ projects }: { projects: Project[] }) {
         >
           {isExpanded ? (
             <>
-              Show Less
               <ChevronUp className="h-4 w-4" />
+              Show Less{" "}
+              <span className="ml-2 text-xs opacity-75">
+                (-{projects.length - 6})
+              </span>
             </>
           ) : (
             <>
-              Show More
               <ChevronDown className="h-4 w-4" />
+              Show More{" "}
+              <span className="ml-2 text-xs opacity-75">
+                +{projects.length - 6}
+              </span>
             </>
           )}
         </Button>
