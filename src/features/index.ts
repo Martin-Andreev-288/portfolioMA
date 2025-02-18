@@ -15,5 +15,6 @@ export { default as ProjectButtons } from './portfolio/ProjectButtons';
 export { default as ProjectCard } from './portfolio/ProjectCard';
 export { default as Resume } from './resume/Resume';
 export { default as EducationCard } from './resume/EducationCard';
+export { default as DownloadCard } from './resume/DownloadCard';
 export { default as Contact } from './contact/Contact';
 export { default as QandA } from './qandA/QandA';

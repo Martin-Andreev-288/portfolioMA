@@ -1,5 +1,5 @@
-import { EducationCard } from "@/features";
-import { education } from "@/utils";
+import { EducationCard, DownloadCard } from "@/features";
+import { education, certifications } from "@/utils";
 
 function Resume() {
   return (
@@ -22,7 +22,17 @@ function Resume() {
               isLast={index === education.length - 1}
             />
           ))}
-        </div>{" "}
+        </div>
+
+        {/* Certifications Download Section */}
+        <div className="space-y-6">
+          <h2 className="text-3xl font-bold mb-4">Certifications</h2>
+          <div className="grid gap-4">
+            {certifications.map((cert, index) => (
+              <DownloadCard key={index} label={cert.label} pdfPath={cert.pdf} />
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );

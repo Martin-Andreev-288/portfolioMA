@@ -42,3 +42,14 @@ export const education = [
         ]
     },
 ];
+
+export const certifications = [
+    {
+        label: "Curriculum Vitae",
+        pdf: "src/assets/CVMartinAndreev.pdf"
+    },
+    {
+        label: "Graduation Certificate from Telerik Academy Alpha",
+        pdf: "src/assets/CertificateGrad.pdf"
+    },
+];
