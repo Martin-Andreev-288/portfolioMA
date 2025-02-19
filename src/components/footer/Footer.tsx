@@ -4,12 +4,12 @@ import { SocialIcon } from "@/components";
 
 function Footer() {
   return (
-    <footer className="border-t dark:border-gray-700 py-6">
-      <div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
-        <p className="text-gray-600 dark:text-gray-300">
+    <footer className="border-t dark:border-gray-800 py-8 mt-auto">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <p className="text-gray-600 dark:text-gray-400 order-2 sm:order-1 text-sm">
           © {new Date().getFullYear()} Marto
         </p>
-        <div className="flex gap-4">
+        <div className="flex gap-5 order-1 sm:order-2">
           <SocialIcon
             href="https://github.com/Martin-Andreev-288/"
             icon={<FiGithub />}

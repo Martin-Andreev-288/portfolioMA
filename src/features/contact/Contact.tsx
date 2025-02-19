@@ -6,14 +6,16 @@ import { ContactForm } from "@/features";
 function Contact() {
   return (
     <section>
-      <div className="mt-12">
+      <div className="py-12">
         <h1 className="text-center text-5xl font-bold mb-8 border-b-4 border-primary pb-4 w-full dark:border-primary-foreground">
           Contact Me
         </h1>
         <ContactForm />
       </div>
       <div className="mt-12 text-center">
-        <h3 className="text-xl mb-4">Or connect directly:</h3>
+        <h3 className="text-xl font-medium mb-6 text-gray-600 dark:text-gray-400">
+          Direct Connections:
+        </h3>
         <div className="flex gap-6 justify-center">
           <SocialIcon
             href="https://github.com/Martin-Andreev-288/"
