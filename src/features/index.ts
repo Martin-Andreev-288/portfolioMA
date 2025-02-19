@@ -20,3 +20,4 @@ export { default as QandA } from './qandA/QandA';
 export { default as Accordion } from './qandA/Accordion';
 export { default as AccordionItem } from './qandA/AccordionItem';
 export { default as Contact } from './contact/Contact';
+export { default as ContactForm } from './contact/ContactForm';
