@@ -1,5 +1,5 @@
 import { Outlet } from "react-router";
-import { Navbar } from "../..";
+import { Footer, Navbar } from "../..";
 
 function AppLayout() {
   return (
@@ -11,6 +11,7 @@ function AppLayout() {
           <Outlet />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
