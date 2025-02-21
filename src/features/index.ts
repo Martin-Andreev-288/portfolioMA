@@ -19,5 +19,6 @@ export { default as DownloadCard } from './resume/DownloadCard';
 export { default as QandA } from './qandA/QandA';
 export { default as Accordion } from './qandA/Accordion';
 export { default as AccordionItem } from './qandA/AccordionItem';
+export { default as ContactPrompt } from './qandA/ContactPrompt';
 export { default as Contact } from './contact/Contact';
 export { default as ContactForm } from './contact/ContactForm';

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
+import { ContactPrompt } from "../";
 
 type QandA = {
   question: string;
@@ -26,6 +27,7 @@ function Accordion({ data }: AccordionProps) {
 
   return (
     <div className="flex flex-col gap-6 w-full max-w-3xl mx-auto">
+      {/* Categories and questions */}
       {data.map((category, categoryIndex) => {
         const startIndex =
           categoryIndex === 0 ? 0 : categoryOffsets[categoryIndex - 1];
@@ -53,6 +55,9 @@ function Accordion({ data }: AccordionProps) {
           </div>
         );
       })}
+
+      {/* Ending message */}
+      <ContactPrompt />
     </div>
   );
 }
