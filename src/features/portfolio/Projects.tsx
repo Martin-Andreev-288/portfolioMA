@@ -12,7 +12,7 @@ export type Project = {
 };
 
 function Projects({ projects }: { projects: Project[] }) {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState<boolean>(false);
   const visibleProjects = isExpanded ? projects : projects.slice(0, 6);
 
   return (
