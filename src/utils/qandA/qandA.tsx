@@ -1,3 +1,5 @@
+import rossieImg from "@/assets/rossie.png";
+
 export const questAndAnsw = [
   {
     name: "Introduction 🙋‍♂️",
@@ -705,7 +707,7 @@ export const questAndAnsw = [
             <br />
             <br />
             <img
-              src="src/assets/rossie.png"
+              src={rossieImg}
               alt="Rossie the kitten"
               style={{ maxWidth: "600px" }}
             />

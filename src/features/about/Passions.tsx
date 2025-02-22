@@ -1,8 +1,15 @@
+type ImageStyle = {
+  backgroundImage: string;
+  backgroundPosition: string;
+  backgroundRepeat: string;
+  backgroundSize: string;
+};
+
 type Passion = {
   title: string;
   icon: React.ReactNode;
   description: string;
-  imageUrl: string;
+  imageStyle: ImageStyle;
 };
 
 type PassionsProps = {
@@ -15,9 +22,10 @@ function Passions({ passions }: PassionsProps) {
       {passions.map((passion) => (
         <div
           key={passion.title}
-          className={`relative pt-4 pb-5 px-5 rounded-xl shadow-sm hover:shadow-xl transition-shadow
+          className="relative pt-4 pb-5 px-5 rounded-xl shadow-sm hover:shadow-xl transition-shadow
                      sm:w-[40%] md:w-[35%] lg:w-[31%] flex flex-col items-center
-                     bg-cover bg-center ${passion.imageUrl}`}
+                     bg-cover bg-center"
+          style={passion.imageStyle}
         >
           <div className="absolute inset-0 bg-black/30 dark:bg-black/50 rounded-xl z-0" />
 

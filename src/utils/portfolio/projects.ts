@@ -1,8 +1,10 @@
+import portfolioImg from '@/assets/portfolio.png';
+
 export const projects = [
     {
         name: "Weather App",
         technologies: "React with Classes / HTML / CSS",
-        img: "src/assets/portfolio.png",
+        img: portfolioImg,
         demo: "https://www.youtube.com/shorts/AcBERksfWV8",
         link: "https://google.com/",
         repo: "https://github.com/Martin-Andreev-288/classy-weather",
@@ -11,7 +13,7 @@ export const projects = [
     {
         name: "VRScans library",
         technologies: "React / TypeScript / Tailwind CSS / React Icons / Vitest / Redux",
-        img: "src/assets/portfolio.png",
+        img: portfolioImg,
         demo: "https://www.youtube.com/shorts/AcBERksfWV8",
         link: "https://google.com/",
         repo: "https://gitlab.com/Nia-Kostadinova/vrscans-library",
@@ -20,7 +22,7 @@ export const projects = [
     {
         name: "VRScans library1",
         technologies: "React / TypeScript / Tailwind CSS / React Icons / Vitest / Redux",
-        img: "src/assets/portfolio.png",
+        img: portfolioImg,
         demo: "https://www.youtube.com/shorts/AcBERksfWV8",
         link: "https://google.com/",
         repo: "https://gitlab.com/Nia-Kostadinova/vrscans-library",
@@ -29,7 +31,7 @@ export const projects = [
     {
         name: "Weather App1",
         technologies: "React with Classes / HTML / CSS",
-        img: "src/assets/portfolio.png",
+        img: portfolioImg,
         demo: "https://www.youtube.com/shorts/AcBERksfWV8",
         link: "https://google.com/",
         repo: "https://github.com/Martin-Andreev-288/classy-weather",
@@ -38,7 +40,7 @@ export const projects = [
     {
         name: "VRScans library2",
         technologies: "React / TypeScript / Tailwind CSS / React Icons / Vitest / Redux",
-        img: "src/assets/portfolio.png",
+        img: portfolioImg,
         demo: "https://www.youtube.com/shorts/AcBERksfWV8",
         link: "https://google.com/",
         repo: "https://gitlab.com/Nia-Kostadinova/vrscans-library",
@@ -47,7 +49,7 @@ export const projects = [
     {
         name: "Weather App2",
         technologies: "React with Classes / HTML / CSS",
-        img: "src/assets/portfolio.png",
+        img: portfolioImg,
         demo: "https://www.youtube.com/shorts/AcBERksfWV8",
         link: "https://google.com/",
         repo: "https://github.com/Martin-Andreev-288/classy-weather",
@@ -56,7 +58,7 @@ export const projects = [
     {
         name: "VRScans library3",
         technologies: "React / TypeScript / Tailwind CSS / React Icons / Vitest / Redux",
-        img: "src/assets/portfolio.png",
+        img: portfolioImg,
         demo: "https://www.youtube.com/shorts/AcBERksfWV8",
         link: "https://google.com/",
         repo: "https://gitlab.com/Nia-Kostadinova/vrscans-library",
@@ -65,7 +67,7 @@ export const projects = [
     {
         name: "Weather App3",
         technologies: "React with Classes / HTML / CSS",
-        img: "src/assets/portfolio.png",
+        img: portfolioImg,
         demo: "https://www.youtube.com/shorts/AcBERksfWV8",
         link: "https://google.com/",
         repo: "https://github.com/Martin-Andreev-288/classy-weather",

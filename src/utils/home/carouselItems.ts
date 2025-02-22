@@ -1,9 +1,10 @@
 import { type Item } from '../types'
+import passportImg from '@/assets/m-a.jpg'
 
 export const carouselItems: Item[] = [
     {
         type: "welcomeSlide",
-        src: "images/m-a.jpg",
+        src: passportImg,
         position: "Web Developer",
         name: "Martin Andreev",
     },

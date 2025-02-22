@@ -1,3 +1,6 @@
+import cvPdf from '@/assets/CVMartinAndreev.pdf';
+import certPdf from '@/assets/CertificateGrad.pdf';
+
 export const education = [
     {
         title: "React Upskill Program",
@@ -46,10 +49,10 @@ export const education = [
 export const certifications = [
     {
         label: "Curriculum Vitae",
-        pdf: "src/assets/CVMartinAndreev.pdf"
+        pdf: cvPdf
     },
     {
-        label: "Graduation Certificate from Telerik Academy Alpha",
-        pdf: "src/assets/CertificateGrad.pdf"
-    },
+        label: "Graduation Certificate...",
+        pdf: certPdf
+    }
 ];
