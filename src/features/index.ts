@@ -5,6 +5,7 @@ export { default as Image } from './home/slides/Image';
 export { default as Video } from './home/slides/Video';
 export { default as Carousel } from './home/Carousel';
 export { default as AutoplayControl } from './home/AutoplayControl';
+export { default as IntroductionText } from './home/IntroductionText';
 export { default as About } from './about/About';
 export { default as TechSkills } from './about/TechSkills';
 export { default as SoftSkills } from './about/SoftSkills';
