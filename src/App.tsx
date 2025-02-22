@@ -2,38 +2,43 @@ import { RouterProvider, createBrowserRouter } from "react-router";
 import { AppLayout } from "@/components";
 import { About, Contact, Home, Portfolio, QandA, Resume } from "./features";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <AppLayout />,
+      children: [
+        {
+          index: true,
+          element: <Home />,
+        },
+        {
+          path: "about",
+          element: <About />,
+        },
+        {
+          path: "portfolio",
+          element: <Portfolio />,
+        },
+        {
+          path: "contact",
+          element: <Contact />,
+        },
+        {
+          path: "q&a",
+          element: <QandA />,
+        },
+        {
+          path: "resume",
+          element: <Resume />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <AppLayout />,
-    children: [
-      {
-        index: true,
-        element: <Home />,
-      },
-      {
-        path: "about",
-        element: <About />,
-      },
-      {
-        path: "portfolio",
-        element: <Portfolio />,
-      },
-      {
-        path: "contact",
-        element: <Contact />,
-      },
-      {
-        path: "q&a",
-        element: <QandA />,
-      },
-      {
-        path: "resume",
-        element: <Resume />,
-      },
-    ],
-  },
-]);
+    basename: "/portfolioMA/",
+  }
+);
 
 function App() {
   return <RouterProvider router={router} />;
