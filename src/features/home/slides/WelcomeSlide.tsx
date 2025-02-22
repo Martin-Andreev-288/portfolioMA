@@ -13,7 +13,7 @@ function WelcomeSlide({ item, index }: WelcomeSlideProps) {
         {item.position}
       </h1>
       <img
-        src="src/assets/m-a.jpg"
+        src={item.src}
         alt={`Slide ${index}`}
         className="w-48 h-48 md:w-[200px] md:h-[200px] rounded-full object-cover mb-4 border-4 border-primary/20 shadow-lg mx-auto"
       />
