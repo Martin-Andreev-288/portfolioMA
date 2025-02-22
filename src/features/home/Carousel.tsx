@@ -3,6 +3,7 @@ import { NavButton } from "@/components";
 import { AutoplayControl } from "@/features";
 import { Slide } from "..";
 import { type Item } from "../../utils/types";
+import portfolioImg from "@/assets/portfolio.png";
 
 type CarouselProps = {
   items: Item[];
@@ -50,7 +51,15 @@ function Carousel({
   const toggleAutoplay = () => setIsAutoplayEnabled((prev) => !prev);
 
   return (
-    <section className="mx-auto w-[90vw] max-w-[1200px] relative min-h-[620px] overflow-hidden border border-border rounded-xl shadow-lg bg-[url('/portfolioMA/images/portfolio.png')] bg-center bg-no-repeat bg-cover">
+    <section
+      className="mx-auto w-[90vw] max-w-[1200px] relative min-h-[620px] overflow-hidden border border-border rounded-xl shadow-lg"
+      style={{
+        backgroundImage: `url(${portfolioImg})`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+    >
       {items.map((item, index) => (
         <Slide
           key={index}
