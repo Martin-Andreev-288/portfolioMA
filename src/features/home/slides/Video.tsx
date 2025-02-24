@@ -18,7 +18,7 @@ function Video({ item, isEnabled }: VideoProps) {
       <div className="mt-14 text-base font-normal text-center text-muted-foreground pb-4">
         {isEnabled && (
           <p className="inline-block text-primary-foreground bg-black/80 text-white px-2 rounded-md shadow-md font-normal border-primary/30 drop-shadow-[0_2px_2px_rgba(0,0,0,0.4)]">
-            CLICK ON "Pause Autoplay" and press the start button to watch the
+            CLICK ON "Pause Slideshow" and press the start button to watch the
             video
           </p>
         )}

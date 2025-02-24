@@ -54,7 +54,7 @@ export const questAndAnsw = [
             React Upskill course, which i successfully completed. This course
             introduced me to a lot of new concepts, and after finishing it, i
             decided to practice a bit more before fully diving into job
-            applications. I just needed that extra confidence — though i know
+            applications. I just needed that extra confidence - though i know
             there's no way to learn everything beforehand.
           </>
         ),
@@ -69,7 +69,7 @@ export const questAndAnsw = [
           "What technologies or programming languages do you specialize in and feel most comfortable with?",
         answer: (
           <>
-            I'm still growing, but my focus is on JavaScript and React — tools
+            I'm still growing, but my focus is on JavaScript and React - tools
             i've come to love, particularly React.
             <br />
             <br />
@@ -85,7 +85,7 @@ export const questAndAnsw = [
           <>
             JavaScript is one of the most widely used languages, and React is
             one of the most highly regarded frameworks. Their future looks
-            promising — just like the career i'm striving for.
+            promising - just like the career i'm striving for.
             <br />
             <br />
             Also, working with JavaScript and React gives me a few extra
@@ -93,7 +93,7 @@ export const questAndAnsw = [
             developer community that can help when needed.
             <br />
             <br />
-            Most importantly, i love building with React — whether it's a
+            Most importantly, i love building with React - whether it's a
             polished/nicely structured app or a quirky side project. The process
             itself is what excites me.
           </>
@@ -129,7 +129,7 @@ export const questAndAnsw = [
             <br />
             <br />
             Of course, i'm always open to learning new tools or technologies if
-            needed — adaptability is key in this field.
+            needed - adaptability is key in this field.
           </>
         ),
       },
@@ -143,7 +143,7 @@ export const questAndAnsw = [
             <br />
             <br />
             I once saw a YouTube comment with hundreds of likes saying, “After
-            14 months of learning, i quit — it's a waste of time.” I found that
+            14 months of learning, i quit - it's a waste of time.” I found that
             mindset completely absurd. If it were that easy, then people
             spending years and thousands of dollars on university degrees would
             be complete fools.
@@ -253,7 +253,7 @@ export const questAndAnsw = [
             <br />
             However, the most important lesson i've learned is that the best way
             to truly understand something is to apply it in real-world projects.
-            Reading and watching videos can only take you so far — practical
+            Reading and watching videos can only take you so far - practical
             experience is what really makes things stick.
           </>
         ),
@@ -264,7 +264,7 @@ export const questAndAnsw = [
         answer: (
           <>
             It may sound paradoxical, but the hardest thing for me to learn was
-            actually how to learn — figuring out the right approach, the best
+            actually how to learn - figuring out the right approach, the best
             resources, the proper workflow, and the most effective ways to apply
             knowledge in practice.
             <br />
@@ -281,8 +281,8 @@ export const questAndAnsw = [
           "If you could change something about the programming language or framework you use most often, what would it be?",
         answer: (
           <>
-            This might be a bit controversial — since having a variety of
-            choices is also an advantage — but i think there are simply too many
+            This might be a bit controversial - since having a variety of
+            choices is also an advantage - but i think there are simply too many
             libraries, tools, and side technologies that a React developer (or
             any developer, really) is expected to learn.
             <br />
@@ -290,7 +290,7 @@ export const questAndAnsw = [
             This creates a challenge because one company might require a
             specific set of tools, while another might prioritize completely
             different ones. As a result, when applying for jobs, you can't be a
-            perfect fit for every position — you're only as relevant as the
+            perfect fit for every position - you're only as relevant as the
             specific technologies you're comfortable with.
             <br />
             <br />
@@ -337,7 +337,7 @@ export const questAndAnsw = [
           "How would you describe your ideal teammate for collaborative work?",
         answer: (
           <>
-            Like the Loch Ness Monster or an unicorn — basically, some random
+            Like the Loch Ness Monster or an unicorn - basically, some random
             creature that just doesn't exist 🙂 (which applies to me as well, of
             course).
             <br />
@@ -345,7 +345,7 @@ export const questAndAnsw = [
             Jokes aside, the ideal teammate for me would be someone who is
             motivated, shares similar interests, and has a strong desire to
             improve and develop new skills. Ideally, they wouldn't be too
-            experienced — otherwise, i'd feel like i'm not contributing much to
+            experienced - otherwise, i'd feel like i'm not contributing much to
             the collaboration.
             <br />
             <br />
@@ -367,7 +367,7 @@ export const questAndAnsw = [
             <br />
             <br />
             If the situation is particularly difficult, i might consider having
-            a friendly conversation with the team leader — not to demand drastic
+            a friendly conversation with the team leader - not to demand drastic
             action, of course, but simply to understand the situation better and
             explore ways to help the teammate in a constructive way. The goal
             would be to find a solution that benefits both the individual and
@@ -376,10 +376,10 @@ export const questAndAnsw = [
         ),
       },
       {
-        question: "How do you prefer to work — remotely or on-site?",
+        question: "How do you prefer to work - remotely or on-site?",
         answer: (
           <>
-            To be honest, i prefer working remotely — but i am flexible. As i
+            To be honest, i prefer working remotely - but i am flexible. As i
             mentioned, with homes in Dobrich and Sofia, i can relocate instantly
             if needed, even on the same day.
             <br />
@@ -398,7 +398,7 @@ export const questAndAnsw = [
         question: "Where do you see yourself in 3-5 years as a developer?",
         answer: (
           <>
-            I hope to be part of a company that supports my growth — one that
+            I hope to be part of a company that supports my growth - one that
             helps me deepen my knowledge and skills. I'd love to work with
             teammates who are just as motivated and eager to learn,
             collaborating on innovative and impactful projects.
@@ -414,7 +414,7 @@ export const questAndAnsw = [
             technologies. I see this adaptability as an invaluable skill.
             <br />
             <br />
-            But no matter where i am, i expect to remain a lifelong learner —
+            But no matter where i am, i expect to remain a lifelong learner -
             continuously pushing myself to stay at the forefront of web
             development.
           </>
@@ -425,7 +425,7 @@ export const questAndAnsw = [
           "What are your programming-related goals for this year and beyond?",
         answer: (
           <>
-            Right now, my main goal is to find the right job — not just any job,
+            Right now, my main goal is to find the right job - not just any job,
             but one that will help me develop my web development skills and
             provide valuable experience for my CV and portfolio.
             <br />
@@ -468,7 +468,7 @@ export const questAndAnsw = [
         answer: (
           <>
             At this moment, the most important thing is finding a
-            junior-developer-friendly company — one that's willing to invest in
+            junior-developer-friendly company - one that's willing to invest in
             my growth.
             <br />
             <br />
@@ -490,7 +490,7 @@ export const questAndAnsw = [
             I'm honestly divided on this topic.
             <br />
             <br />
-            On one hand, AI is extremely helpful when used properly — it can
+            On one hand, AI is extremely helpful when used properly - it can
             speed up workflows and automate repetitive tasks, making development
             more efficient. But on the other hand, it's true that AI makes
             things more complicated for many people, especially those entering
@@ -504,7 +504,7 @@ export const questAndAnsw = [
             solve complex problems.
             <br />
             <br />
-            History has seen similar fears before — like when machines started
+            History has seen similar fears before - like when machines started
             replacing manual labor during the Industrial Revolution. At first,
             it caused drastic concerns, but today, nobody really questions
             whether it was necessary. I think AI will follow a similar path.
@@ -549,18 +549,18 @@ export const questAndAnsw = [
             <br />
             - Competency and the ability to explain things clearly.
             <br />
-            - Honest, constructive feedback — i don't mind criticism; in fact, i
+            - Honest, constructive feedback - i don't mind criticism; in fact, i
             find it necessary, but it should be given in a way that actually
             helps improvement.
             <br />
             <br />
             A good mentor avoids extremes. He shouldn't write too much code for
             you but also shouldn't say, "I'll never write code." The best
-            mentors know when to step in and when to step back — they understand
+            mentors know when to step in and when to step back - they understand
             timing and balance.
             <br />
             <br />
-            Also, a mentor should be somewhat of a psychologist — not in the
+            Also, a mentor should be somewhat of a psychologist - not in the
             sense of avoiding honesty, but in knowing how to approach different
             people. Some learners respond well to direct feedback, while others
             need a more patient, step-by-step approach. One size doesn't fit
@@ -579,7 +579,7 @@ export const questAndAnsw = [
             <br />
             <br />
             That being said, i understand that his willingness to help shouldn't
-            be overused or taken for granted. Mentorship should be used wisely —
+            be overused or taken for granted. Mentorship should be used wisely -
             at the right time and in the right way.
           </>
         ),
@@ -595,7 +595,7 @@ export const questAndAnsw = [
             pitfalls.
             <br />
             <br />
-            So, here's my biggest advice: Don't make the mistake i did — don't
+            So, here's my biggest advice: Don't make the mistake i did - don't
             rely too much on tutorials. Watching tutorials and video lessons is
             useful, but it's not enough on its own. The most important thing is
             to practice and build projects.
@@ -603,7 +603,7 @@ export const questAndAnsw = [
             <br />
             Also:
             <br />
-            - Find a way to get competent feedback — it's crucial for
+            - Find a way to get competent feedback - it's crucial for
             improvement.
             <br />- Don't get into coding just for the money. Yes, salary is an
             important factor, but if it's your only motivation, you'll struggle
@@ -642,7 +642,7 @@ export const questAndAnsw = [
           "What's a non-tech hobby that indirectly improves your coding skills?",
         answer: (
           <>
-            Probably my passion for sports — especially football and fitness.
+            Probably my passion for sports - especially football and fitness.
             <br />
             <br />
             Sports have taught me a crucial lesson: you're not defeated when you
@@ -651,7 +651,7 @@ export const questAndAnsw = [
             <br />
             <br />
             Life is a mix of wins and losses, and you have to be ready to face
-            both with dignity. Right now, coding is my competition — but instead
+            both with dignity. Right now, coding is my competition - but instead
             of fearing the challenges, i choose to respect them and keep pushing
             forward.
             <br />

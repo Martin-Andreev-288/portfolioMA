@@ -10,7 +10,7 @@ function AutoplayControl({ onToggle, isEnabled }: AutoplayControlProps) {
       className="absolute bottom-9 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground font-bold px-4 py-1 rounded-md cursor-pointer transition-colors hover:bg-primary/90"
       onClick={onToggle}
     >
-      {isEnabled ? "Pause Autoplay" : "Enable Autoplay"}
+      {isEnabled ? "Pause Slideshow" : "Enable Slideshow"}
     </button>
   );
 }
