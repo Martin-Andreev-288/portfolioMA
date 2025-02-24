@@ -1,5 +1,5 @@
 import { RouterProvider, createBrowserRouter } from "react-router";
-import { AppLayout } from "@/components";
+import { AppLayout, ErrorElement } from "@/components";
 import { About, Contact, Home, Portfolio, QandA, Resume } from "./features";
 import { Error } from "./pages";
 
@@ -13,26 +13,32 @@ const router = createBrowserRouter(
         {
           index: true,
           element: <Home />,
+          errorElement: <ErrorElement />,
         },
         {
           path: "about",
           element: <About />,
+          errorElement: <ErrorElement />,
         },
         {
           path: "portfolio",
           element: <Portfolio />,
+          errorElement: <ErrorElement />,
         },
         {
           path: "contact",
           element: <Contact />,
+          errorElement: <ErrorElement />,
         },
         {
           path: "q&a",
           element: <QandA />,
+          errorElement: <ErrorElement />,
         },
         {
           path: "resume",
           element: <Resume />,
+          errorElement: <ErrorElement />,
         },
       ],
     },
