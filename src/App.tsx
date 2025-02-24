@@ -1,5 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router";
-import { AppLayout, ErrorElement } from "@/components";
+import AppLayout from "./layouts/AppLayout";
+import { ErrorElement } from "@/components";
 import { About, Contact, Home, Portfolio, QandA, Resume } from "./features";
 import { Error } from "./pages";
 
