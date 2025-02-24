@@ -1,5 +1,5 @@
-import { useState, useRef, useEffect } from "react";
 import { FiDownload } from "react-icons/fi";
+import useDownloadHandler from "@/hooks/useDownloadHandler";
 
 type DownloadCardProps = {
   label: string;
@@ -7,21 +7,7 @@ type DownloadCardProps = {
 };
 
 function DownloadCard({ label, pdfPath }: DownloadCardProps) {
-  const [isDownloading, setIsDownloading] = useState(false);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
-
-  const handleDownloadClick = () => {
-    setIsDownloading(true);
-    timeoutRef.current = setTimeout(() => setIsDownloading(false), 2000);
-  };
-
-  useEffect(() => {
-    return () => {
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current);
-      }
-    };
-  }, []);
+  const { isDownloading, handleDownloadClick } = useDownloadHandler();
 
   return (
     <div className="p-4 rounded-lg bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 hover:shadow-md transition-shadow">
