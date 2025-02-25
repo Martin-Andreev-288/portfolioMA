@@ -1,76 +1,76 @@
-import portfolioImg from '@/assets/portfolio.png';
+import projectBg from '@/assets/vrscansAppBg.png';
 
 export const projects = [
     {
-        name: "Weather App",
-        technologies: "React with Classes / HTML / CSS",
-        img: portfolioImg,
-        demo: "https://www.youtube.com/shorts/AcBERksfWV8",
-        link: "https://google.com/",
-        repo: "https://github.com/Martin-Andreev-288/classy-weather",
-        description: "A simple weather app showing the weather in different cities"
-    },
-    {
         name: "VRScans library",
         technologies: "React / TypeScript / Tailwind CSS / React Icons / Vitest / Redux",
-        img: portfolioImg,
-        demo: "https://www.youtube.com/shorts/AcBERksfWV8",
-        link: "https://google.com/",
+        img: projectBg,
+        demo: "https://youtu.be/dAvZAEYDoZI",
+        link: "https://vrscanslibrarynm.vercel.app/",
         repo: "https://gitlab.com/Nia-Kostadinova/vrscans-library",
         description: "An app for web designers exposing varions VRScan products"
     },
     {
         name: "VRScans library1",
         technologies: "React / TypeScript / Tailwind CSS / React Icons / Vitest / Redux",
-        img: portfolioImg,
-        demo: "https://www.youtube.com/shorts/AcBERksfWV8",
-        link: "https://google.com/",
+        img: projectBg,
+        demo: "https://youtu.be/dAvZAEYDoZI",
+        link: "https://vrscanslibrarynm.vercel.app/",
         repo: "https://gitlab.com/Nia-Kostadinova/vrscans-library",
         description: "An app for web designers exposing varions VRScan products"
-    },
-    {
-        name: "Weather App1",
-        technologies: "React with Classes / HTML / CSS",
-        img: portfolioImg,
-        demo: "https://www.youtube.com/shorts/AcBERksfWV8",
-        link: "https://google.com/",
-        repo: "https://github.com/Martin-Andreev-288/classy-weather",
-        description: "A simple weather app showing the weather in different cities"
     },
     {
         name: "VRScans library2",
         technologies: "React / TypeScript / Tailwind CSS / React Icons / Vitest / Redux",
-        img: portfolioImg,
-        demo: "https://www.youtube.com/shorts/AcBERksfWV8",
-        link: "https://google.com/",
+        img: projectBg,
+        demo: "https://youtu.be/dAvZAEYDoZI",
+        link: "https://vrscanslibrarynm.vercel.app/",
         repo: "https://gitlab.com/Nia-Kostadinova/vrscans-library",
         description: "An app for web designers exposing varions VRScan products"
-    },
-    {
-        name: "Weather App2",
-        technologies: "React with Classes / HTML / CSS",
-        img: portfolioImg,
-        demo: "https://www.youtube.com/shorts/AcBERksfWV8",
-        link: "https://google.com/",
-        repo: "https://github.com/Martin-Andreev-288/classy-weather",
-        description: "A simple weather app showing the weather in different cities"
     },
     {
         name: "VRScans library3",
         technologies: "React / TypeScript / Tailwind CSS / React Icons / Vitest / Redux",
-        img: portfolioImg,
-        demo: "https://www.youtube.com/shorts/AcBERksfWV8",
-        link: "https://google.com/",
+        img: projectBg,
+        demo: "https://youtu.be/dAvZAEYDoZI",
+        link: "https://vrscanslibrarynm.vercel.app/",
         repo: "https://gitlab.com/Nia-Kostadinova/vrscans-library",
         description: "An app for web designers exposing varions VRScan products"
     },
     {
-        name: "Weather App3",
-        technologies: "React with Classes / HTML / CSS",
-        img: portfolioImg,
-        demo: "https://www.youtube.com/shorts/AcBERksfWV8",
-        link: "https://google.com/",
-        repo: "https://github.com/Martin-Andreev-288/classy-weather",
-        description: "A simple weather app showing the weather in different cities"
+        name: "VRScans library4",
+        technologies: "React / TypeScript / Tailwind CSS / React Icons / Vitest / Redux",
+        img: projectBg,
+        demo: "https://youtu.be/dAvZAEYDoZI",
+        link: "https://vrscanslibrarynm.vercel.app/",
+        repo: "https://gitlab.com/Nia-Kostadinova/vrscans-library",
+        description: "An app for web designers exposing varions VRScan products"
+    },
+    {
+        name: "VRScans library5",
+        technologies: "React / TypeScript / Tailwind CSS / React Icons / Vitest / Redux",
+        img: projectBg,
+        demo: "https://youtu.be/dAvZAEYDoZI",
+        link: "https://vrscanslibrarynm.vercel.app/",
+        repo: "https://gitlab.com/Nia-Kostadinova/vrscans-library",
+        description: "An app for web designers exposing varions VRScan products"
+    },
+    {
+        name: "VRScans library6",
+        technologies: "React / TypeScript / Tailwind CSS / React Icons / Vitest / Redux",
+        img: projectBg,
+        demo: "https://youtu.be/dAvZAEYDoZI",
+        link: "https://vrscanslibrarynm.vercel.app/",
+        repo: "https://gitlab.com/Nia-Kostadinova/vrscans-library",
+        description: "An app for web designers exposing varions VRScan products"
+    },
+    {
+        name: "VRScans library7",
+        technologies: "React / TypeScript / Tailwind CSS / React Icons / Vitest / Redux",
+        img: projectBg,
+        demo: "https://youtu.be/dAvZAEYDoZI",
+        link: "https://vrscanslibrarynm.vercel.app/",
+        repo: "https://gitlab.com/Nia-Kostadinova/vrscans-library",
+        description: "An app for web designers exposing varions VRScan products"
     },
 ];

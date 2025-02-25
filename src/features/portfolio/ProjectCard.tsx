@@ -9,7 +9,7 @@ function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div key={project.name} className="flex flex-col items-center mb-8">
       {/* Project Card */}
-      <div className="group relative w-64 h-96 mx-auto overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+      <div className="group relative w-64 h-96 mx-auto overflow-hidden rounded-lg shadow-2xl transition-all duration-300">
         {/* Project Image */}
         <img
           src={project.img}
