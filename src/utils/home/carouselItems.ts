@@ -1,5 +1,6 @@
-import { type Item } from '../types'
-import passportImg from '@/assets/m-a.jpg'
+import { type Item } from '../types';
+import passportImg from '@/assets/m-a.jpg';
+import intrVideo from '@/assets/intrVideo.mp4';
 
 export const carouselItems: Item[] = [
     {
@@ -10,7 +11,7 @@ export const carouselItems: Item[] = [
     },
     {
         type: "video",
-        src: "https://videos.pexels.com/video-files/4549682/4549682-hd_1920_1080_30fps.mp4",
+        src: intrVideo,
     },
     {
         type: "image",
