@@ -11,9 +11,20 @@ export type Project = {
   description: string;
 };
 
-function Projects({ projects }: { projects: Project[] }) {
-  const [isExpanded, setIsExpanded] = useState<boolean>(false);
-  const visibleProjects = isExpanded ? projects : projects.slice(0, 6);
+type ProjectProps = {
+  projects: Project[];
+  initialCount: number;
+};
+
+function Projects({ projects, initialCount }: ProjectProps) {
+  const [numShownProjects, setNumShownProjects] =
+    useState<number>(initialCount);
+  const visibleProjects = projects.slice(0, numShownProjects);
+  const totalProjectsNum = projects.length;
+
+  const toggleExpand = () => {
+    setNumShownProjects((prev) => prev + 3);
+  };
 
   return (
     <>
@@ -24,9 +35,9 @@ function Projects({ projects }: { projects: Project[] }) {
       </div>
 
       <ProjectButtons
-        isExpanded={isExpanded}
-        toggleExpand={() => setIsExpanded(!isExpanded)}
-        totalProjects={projects.length}
+        numShownProjects={numShownProjects}
+        toggleExpand={toggleExpand}
+        totalProjectsNum={totalProjectsNum}
       />
     </>
   );

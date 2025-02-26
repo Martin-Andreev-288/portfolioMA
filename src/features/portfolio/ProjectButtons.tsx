@@ -1,56 +1,44 @@
 import { Button } from "@/components/ui/button";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 
 type ProjectButtonsProps = {
-  isExpanded: boolean;
+  numShownProjects: number;
   toggleExpand: () => void;
-  totalProjects: number;
+  totalProjectsNum: number;
 };
 
 function ProjectButtons({
-  isExpanded,
+  numShownProjects,
   toggleExpand,
-  totalProjects,
+  totalProjectsNum,
 }: ProjectButtonsProps) {
+  const remaining = totalProjectsNum - numShownProjects;
+
+  if (remaining <= 0) return null;
+
   return (
     <div className="mt-4">
       <Button
-        aria-label={
-          isExpanded ? "Collapse projects list" : "Expand projects list"
-        }
-        variant={isExpanded ? "destructive" : "default"}
+        aria-label="Expand projects list"
+        variant="outline"
         onClick={() => {
           toggleExpand();
-          if (!isExpanded) {
-            setTimeout(
-              () =>
-                window.scrollTo({
-                  top: document.documentElement.scrollHeight,
-                  behavior: "smooth",
-                }),
-              100
-            );
-          }
+          setTimeout(
+            () =>
+              window.scrollTo({
+                top: document.documentElement.scrollHeight,
+                behavior: "smooth",
+              }),
+            100
+          );
         }}
-        className="gap-2 transition-all"
+        className="gap-1 transition-all dark:border-gray-100"
       >
-        {isExpanded ? (
-          <>
-            <ChevronUp className="h-4 w-4" />
-            Show Less{" "}
-            <span className="ml-2 text-xs opacity-75">
-              (-{totalProjects - 6})
-            </span>
-          </>
-        ) : (
-          <>
-            <ChevronDown className="h-4 w-4" />
-            Show More{" "}
-            <span className="ml-2 text-xs opacity-75">
-              +{totalProjects - 6}
-            </span>
-          </>
-        )}
+        <ChevronDown className="h-4 w-4" />
+        Show More{" "}
+        <span className="ml-2 text-xs opacity-75">
+          +{totalProjectsNum - numShownProjects}
+        </span>
       </Button>
     </div>
   );

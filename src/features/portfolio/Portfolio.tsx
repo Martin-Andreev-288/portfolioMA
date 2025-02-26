@@ -10,7 +10,7 @@ function Portfolio() {
       <div className="max-w-7xl mx-auto text-center">
         {/* Projects */}
         <div>
-          <Projects projects={projects} />
+          <Projects projects={projects} initialCount={6} />
         </div>
       </div>
     </section>
