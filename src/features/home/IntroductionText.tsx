@@ -62,7 +62,7 @@ export function IntroductionText() {
             >
               Resume
             </NavLink>{" "}
-            - My education, CV, and certifications. 📄
+            - My education and my certifications. 📄
           </li>
           <li key="q&a">
             👉{" "}

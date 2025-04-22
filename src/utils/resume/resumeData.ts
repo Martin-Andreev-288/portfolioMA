@@ -1,4 +1,3 @@
-import cvMA from '@/assets/CVMartinAndreev.pdf';
 import certAlphaJS from '@/assets/CertificateGradJS.pdf';
 import certUpskillReact from '@/assets/CertificateGradUpskillReact.pdf';
 
@@ -48,10 +47,6 @@ export const education = [
 ];
 
 export const certifications = [
-    {
-        label: "Curriculum Vitae",
-        pdf: cvMA
-    },
     {
         label: "Graduation Certificate, Alpha JavaScript Program, Telerik Academy",
         pdf: certAlphaJS
