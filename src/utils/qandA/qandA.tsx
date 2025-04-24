@@ -9,9 +9,8 @@ export const questAndAnsw = [
           "Introduce yourself and share the most essential facts about you.",
         answer: (
           <>
-            I was born in Dobrich but grew up in Sofia. Though i currently live
-            in Dobrich, i split my time between both cities (i have homes in
-            both) and can relocate to Sofia if needed.
+            I was born in Dobrich but grew up in Sofia. Lately i split my time
+            between both cities (i have homes in both).
             <br />
             <br />
             I'm strongly religious, even though that's not very common among

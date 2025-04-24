@@ -1,4 +1,4 @@
-import { Item } from "@/utils/types";
+import { type Item } from "@/utils/types";
 import { NavLink } from "react-router";
 
 type WelcomeSlideProps = {
