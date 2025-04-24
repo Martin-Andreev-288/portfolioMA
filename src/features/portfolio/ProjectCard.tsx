@@ -52,7 +52,10 @@ function ProjectCard({ project }: ProjectCardProps) {
           rel="noopener noreferrer"
           className="p-2 bg-white dark:bg-gray-800 dark:text-white rounded-full shadow-md hover:bg-gray-100 dark:hover:bg-gray-700"
         >
-          <FiExternalLink className="w-6 h-6 text-gray-800 dark:text-gray-200" />
+          <FiExternalLink
+            className="w-6 h-6 text-gray-800 dark:text-gray-200"
+            data-testid="external-link-icon"
+          />
         </a>
         <a
           href={project.repo}
@@ -60,7 +63,10 @@ function ProjectCard({ project }: ProjectCardProps) {
           rel="noopener noreferrer"
           className="p-2 bg-white dark:bg-gray-800 dark:text-white rounded-full shadow-md hover:bg-gray-100 dark:hover:bg-gray-700"
         >
-          <FiGithub className="w-6 h-6 text-gray-800 dark:text-gray-200" />
+          <FiGithub
+            className="w-6 h-6 text-gray-800 dark:text-gray-200"
+            data-testid="github-icon"
+          />
         </a>
       </div>
     </div>
