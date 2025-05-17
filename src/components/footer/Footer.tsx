@@ -19,7 +19,10 @@ function Footer() {
             href="https://www.facebook.com/martin.kasovitz"
             icon={<FaFacebook />}
           />
-          <SocialIcon href="linkedin-url" icon={<FaInstagramSquare />} />
+          <SocialIcon
+            href="https://www.instagram.com/sehnsucht1995/"
+            icon={<FaInstagramSquare />}
+          />
         </div>
       </div>
     </footer>

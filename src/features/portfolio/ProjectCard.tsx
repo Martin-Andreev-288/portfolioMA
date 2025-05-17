@@ -9,12 +9,12 @@ function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div key={project.name} className="flex flex-col items-center mb-8">
       {/* Project Card */}
-      <div className="group relative w-64 h-96 mx-auto overflow-hidden rounded-lg shadow-2xl transition-all duration-300">
+      <div className="group relative w-72 h-96 mx-auto overflow-hidden rounded-lg shadow-2xl transition-all duration-300">
         {/* Project Image */}
         <img
           src={project.img}
           alt={project.name}
-          className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-20"
+          className="w-full h-full object-fill transition-opacity duration-300 group-hover:opacity-20"
         />
 
         {/* Hover Overlay Content */}
@@ -24,6 +24,7 @@ function ProjectCard({ project }: ProjectCardProps) {
               {project.name}
             </h2>
             <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">
+              <p className="font-bold">Core technologies: </p>{" "}
               {project.technologies}
             </p>
           </div>

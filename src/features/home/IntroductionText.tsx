@@ -52,7 +52,7 @@ export function IntroductionText() {
               Portfolio
             </NavLink>{" "}
             - A selection of projects i've built (which could easily have the
-            "400 Cups of Coffee Later..." subtitle 😉).
+            "200 caffeine dozens later..." subtitle 😉).
           </li>
           <li key="resume">
             👉{" "}

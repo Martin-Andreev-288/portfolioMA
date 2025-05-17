@@ -34,6 +34,14 @@ npm install
 npm run dev
 ```
 
+## Running Tests
+
+To run unit and integration tests, you can use the following command:
+
+```
+npm run test
+```
+
 ## Project Tool Links
-- [Project deploy in Vercel](https://portfolio-m-a.vercel.app/)
+- [Project deploy](https://portfolio-m-a.vercel.app/)
 - [Project demo video]()
