@@ -21,7 +21,10 @@ function Contact() {
             href="https://github.com/Martin-Andreev-288/"
             icon={<FiGithub />}
           />
-          <SocialIcon href="linkedin-url" icon={<FaLinkedin />} />
+          <SocialIcon
+            href="https://www.linkedin.com/in/martin-andreev-078b02366"
+            icon={<FaLinkedin />}
+          />
           <SocialIcon
             href="https://www.facebook.com/martin.kasovitz"
             icon={<FaFacebook />}

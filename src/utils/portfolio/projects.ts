@@ -14,7 +14,7 @@ export const projects = [
         name: "Travel Planner (ongoing project)",
         technologies: "React / TypeScript / Next.js / Tailwind CSS / Zod / Google AI SDK",
         img: travelPlannerBg,
-        demo: "https://youtu.be/dAvZAEYDoZI",
+        demo: "https://youtu.be/kkeXGstKnIE",
         link: "https://travel-planner-tau-coral.vercel.app/",
         repo: privateRepo,
         description: "An AI-powered app for planning personalized trips. Users can chat their preferences or provide directions to generate custom travel itineraries. Currently in development with plans for future feature expansion."
@@ -23,7 +23,7 @@ export const projects = [
         name: "VRScans library",
         technologies: "React / TypeScript / Tailwind CSS / Redux / Vitest / Playwright",
         img: vrscansLibraryBg,
-        demo: "https://youtu.be/0Hy1mQAj9-0",
+        demo: "https://youtu.be/pguaE6OwIq0",
         link: "https://vrscanslibrarynm.vercel.app/",
         repo: "https://github.com/Martin-Andreev-288/vrscans-library",
         description: "An app for web designers exposing varions VRScan products."
@@ -74,15 +74,6 @@ export const projects = [
         description: "A cutting-edge messaging app designed to enhance real-time collaboration and communication among teams."
     },
     {
-        name: "Giphy",
-        technologies: "Vanilla JavaScript / HTML / CSS",
-        img: giphyBg,
-        demo: "https://youtu.be/zmhh3GGcrSg",
-        link: "https://giphy-project-blond.vercel.app/#",
-        repo: "https://github.com/Alpha-55-JS-Web-Programming/Team-Project",
-        description: "An engaging Single Page Application designed for easy searching, viewing, and sharing of gifs. Utilizes the Giphy API to display top trending gifs, with features for users to search and upload their own gifs."
-    },
-    {
         name: "Classy Weather",
         technologies: "React (with class components)",
         img: classyWeatherBg,
@@ -91,4 +82,14 @@ export const projects = [
         repo: "https://github.com/Martin-Andreev-288/classy-weather",
         description: "A simple project with class components that offers a sleek and user-friendly interface for checking the weather forecast for the next 7 days."
     },
+    {
+        name: "Giphy",
+        technologies: "Vanilla JavaScript / HTML / CSS",
+        img: giphyBg,
+        demo: "https://youtu.be/zmhh3GGcrSg",
+        link: "https://giphy-project-blond.vercel.app/#",
+        repo: "https://github.com/Alpha-55-JS-Web-Programming/Team-Project",
+        description: "An engaging Single Page Application designed for easy searching, viewing, and sharing of gifs. Utilizes the Giphy API to display top trending gifs, with features for users to search and upload their own gifs."
+    },
+
 ];
