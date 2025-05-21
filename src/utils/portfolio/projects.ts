@@ -26,7 +26,7 @@ export const projects = [
         demo: "https://youtu.be/pguaE6OwIq0",
         link: "https://vrscanslibrarynm.vercel.app/",
         repo: "https://github.com/Martin-Andreev-288/vrscans-library",
-        description: "An app for web designers exposing varions VRScan products."
+        description: "A specialized React application for browsing and managing ultra-realistic VRScans materials, tailored for professionals in architecture, design, and 3D modeling."
     },
     {
         name: "My Comfy Store",
@@ -50,7 +50,7 @@ export const projects = [
         name: "Portfolio",
         technologies: "React / TypeScript / Tailwind CSS / React-router / Vitest / React Testing Library",
         img: portfolioBg,
-        demo: "https://youtu.be/dAvZAEYDoZI",
+        demo: "https://youtu.be/KiKTtgkqlXw",
         link: "https://portfolio-m-a.vercel.app/",
         repo: "https://github.com/Martin-Andreev-288/portfolioMA",
         description: "My personal portfolio project — a digital reflection of who I am as a developer."
@@ -91,5 +91,4 @@ export const projects = [
         repo: "https://github.com/Alpha-55-JS-Web-Programming/Team-Project",
         description: "An engaging Single Page Application designed for easy searching, viewing, and sharing of gifs. Utilizes the Giphy API to display top trending gifs, with features for users to search and upload their own gifs."
     },
-
 ];
