@@ -1,5 +1,11 @@
 import { IoLogoJavascript } from "react-icons/io";
-import { FaGithub, FaCss3, FaHtml5, FaReact } from "react-icons/fa";
+import {
+  FaTheaterMasks,
+  FaGithub,
+  FaCss3,
+  FaHtml5,
+  FaReact,
+} from "react-icons/fa";
 import {
   SiShadcnui,
   SiVitest,
@@ -34,5 +40,6 @@ export const techSkills = [
   { name: "MongoDB", icon: <DiMongodb className="text-[#47A248]" /> },
   { name: "GitHub", icon: <FaGithub className="text-[#181717]" /> },
   { name: "Vitest", icon: <SiVitest className="text-[#729B1B]" /> },
+  { name: "Playwright", icon: <FaTheaterMasks className="text-[#211b9b]" /> },
   { name: "shadcn/ui", icon: <SiShadcnui className="text-[#4F46E5]" /> },
 ];

@@ -11,7 +11,7 @@ import myComfyStoreBg from '@/assets/projects/myComfyStoreAppBg.png';
 
 export const projects = [
     {
-        name: "Travel Planner (ongoing project)",
+        name: "Travel Planner (Ongoing Project)",
         technologies: "React / TypeScript / Next.js / Tailwind CSS / Zod / Google AI SDK",
         img: travelPlannerBg,
         demo: "https://youtu.be/kkeXGstKnIE",
@@ -20,7 +20,7 @@ export const projects = [
         description: "An AI-powered app for planning personalized trips. Users can chat their preferences or provide directions to generate custom travel itineraries. Currently in development with plans for future feature expansion."
     },
     {
-        name: "VRScans library",
+        name: "VRScans Library",
         technologies: "React / TypeScript / Tailwind CSS / Redux / Vitest / Playwright",
         img: vrscansLibraryBg,
         demo: "https://youtu.be/pguaE6OwIq0",
