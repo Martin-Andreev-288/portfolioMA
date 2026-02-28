@@ -14,7 +14,8 @@ import {
   SiTypescript,
   SiExpress,
 } from "react-icons/si";
-import { DiMongodb, DiFirebase } from "react-icons/di";
+import { DiMongodb, DiFirebase, DiPostgresql } from "react-icons/di";
+import { GoCopilot } from "react-icons/go";
 import {
   RiSupabaseFill,
   RiNodejsLine,
@@ -38,7 +39,9 @@ export const techSkills = [
   { name: "Firebase", icon: <DiFirebase className="text-[#FFCA28]" /> },
   { name: "Supabase", icon: <RiSupabaseFill className="text-[#3ECF8E]" /> },
   { name: "MongoDB", icon: <DiMongodb className="text-[#47A248]" /> },
+  { name: "PostgreSQL", icon: <DiPostgresql className="text-[#4169E1]" /> },
   { name: "GitHub", icon: <FaGithub className="text-[#181717]" /> },
+  { name: "GitHub Copilot", icon: <GoCopilot className="text-[#8957E5]" /> },
   { name: "Vitest", icon: <SiVitest className="text-[#729B1B]" /> },
   { name: "Playwright", icon: <FaTheaterMasks className="text-[#211b9b]" /> },
   { name: "shadcn/ui", icon: <SiShadcnui className="text-[#4F46E5]" /> },
