@@ -15,7 +15,7 @@ export const projects = [
         technologies: "React / TypeScript / Next.js / Tailwind CSS / Zod / Google AI SDK",
         img: travelPlannerBg,
         demo: "https://youtu.be/kkeXGstKnIE",
-        link: "https://travel-planner-tau-coral.vercel.app/",
+        link: "https://travel-planner-delta-taupe.vercel.app/",
         repo: privateRepo,
         description: "An AI-powered app for planning personalized trips. Users can chat their preferences or provide directions to generate custom travel itineraries. Currently in development with plans for future feature expansion."
     },
