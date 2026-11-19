@@ -1,5 +1,5 @@
+import languageLearnerBg from '@/assets/projects/languageLearnerAppBg.png';
 import travelPlannerBg from '@/assets/projects/travelPlannerApp.png';
-import privateRepo from '@/assets/projects/privateRepoMsg.png';
 import vrscansLibraryBg from '@/assets/projects/vrscansAppBg.png';
 import classyWeatherBg from '@/assets/projects/classyWeatherAppBg.png';
 import giphyBg from '@/assets/projects/giphyAppBg.png';
@@ -11,13 +11,31 @@ import myComfyStoreBg from '@/assets/projects/myComfyStoreAppBg.png';
 
 export const projects = [
     {
-        name: "Travel Planner (Ongoing Project)",
-        technologies: "React / TypeScript / Next.js / Tailwind CSS / Zod / Google AI SDK",
+        name: "Language Learner",
+        technologies: "React / TypeScript / Next.js / Tailwind CSS / Prisma / PostgreSQL / Vercel AI SDK / Gemini API",
+        img: languageLearnerBg,
+        demo: "https://youtu.be/BlxD6uhPgMY",
+        link: "https://language-learner-coral.vercel.app/",
+        repo: "https://github.com/Martin-Andreev-288/language-learner",
+        description: "An app for learning foreign languages through reading, writing, vocabulary, listening and speaking practice. AI gives instant feedback, translates, chats and generates new practice content."
+    },
+    {
+        name: "Travel Planner",
+        technologies: "React / TypeScript / Next.js / Tailwind CSS / Prisma / PostgreSQL / Vercel AI SDK / Gemini API",
         img: travelPlannerBg,
-        demo: "https://youtu.be/kkeXGstKnIE",
+        demo: "https://youtu.be/1KAgItifS9I",
         link: "https://travel-planner-delta-taupe.vercel.app/",
-        repo: privateRepo,
-        description: "An AI-powered app for planning personalized trips. Users can chat their preferences or provide directions to generate custom travel itineraries. Currently in development with plans for future feature expansion."
+        repo: "https://github.com/Martin-Andreev-288/travel-planner",
+        description: "An AI-powered app for planning personalized trips. Users can chat their preferences or provide directions to generate custom travel itineraries."
+    },
+    {
+        name: "My Reading List",
+        technologies: "React / TypeScript / Firebase / Tailwind CSS / React-router / Vitest / React Testing Library",
+        img: myReadingListBg,
+        demo: "https://youtu.be/2zxu3yO_1MU",
+        link: "https://my-reading-list-eight.vercel.app/",
+        repo: "https://github.com/Martin-Andreev-288/my-reading-list",
+        description: "A single-page app for managing personal book collections. Users can add, edit, and delete books with details like title, author, genre, and cover image. Includes searching, filtering and sorting for a streamlined experience."
     },
     {
         name: "VRScans Library",
@@ -36,15 +54,6 @@ export const projects = [
         link: "https://my-comfy-store.vercel.app/",
         repo: "https://github.com/Martin-Andreev-288/my-comfy-store",
         description: "A user friendly e-commerce platform for browsing and sorting household products. Features include product search, cart management, and purchase simulations, with public and private pages based on user registration."
-    },
-    {
-        name: "My Reading List",
-        technologies: "React / TypeScript / Firebase / Tailwind CSS / React-router / Vitest / React Testing Library",
-        img: myReadingListBg,
-        demo: "https://youtu.be/2zxu3yO_1MU",
-        link: "https://my-reading-list-eight.vercel.app/",
-        repo: "https://github.com/Martin-Andreev-288/my-reading-list",
-        description: "A single-page app for managing personal book collections. Users can add, edit, and delete books with details like title, author, genre, and cover image. Includes searching, filtering and sorting for a streamlined experience."
     },
     {
         name: "Portfolio",
